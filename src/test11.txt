@@ -1,0 +1,6 @@
+-- Missing operator in expression fixed
+
+function test11 returns integer;
+begin
+    8 or 2 rem 9;
+end;

@@ -1,0 +1,12 @@
+-- Test6 from the PDF but without any errors
+
+function test12 returns real;
+    b: integer is 3 * 2;
+    c: real is 6.0;
+begin
+    if a > c then
+        b = 3.0;
+    else
+        b = 4.;
+    endif;
+end;

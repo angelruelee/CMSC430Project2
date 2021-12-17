@@ -1,0 +1,6 @@
+-- Function with arithmetic expression and parsing error
+
+function test7 returns integer;
+begin
+    7 + 2 * (2  + 4));
+end;

@@ -1,0 +1,7 @@
+-- Function with an Integer Variable line that is messed up and missing ':'
+
+function test8 returns integer;
+    b integer is 9 * 2 + 8;
+begin
+    b + 2 * 8;    
+end;

@@ -1,0 +1,7 @@
+-- Function that returns invalid return type
+
+function test9 returns type;
+    b: boolean is 5 < 2;
+begin
+    b and 2 < 8 + 1 * 7;    
+end;

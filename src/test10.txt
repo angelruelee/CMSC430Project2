@@ -1,0 +1,23 @@
+-- Function showing all the valid operators and catching invalid ops
+
+function test10 returns integer;
+begin
+    reduce *
+         2 ** 8;
+         6 nonoperator;
+         3 * 5;
+         4 rem 3;
+         2 + (3 * 2);
+         (5 - 2) - (2 + 1);
+         2 < 4;
+         4 = 4;
+         b /= 3;
+         b > 1;
+         b >= 2;
+         b <= 2;
+         a and c;
+         a or c;
+         a and b or c;
+         4 *& 5;
+    endreduce;    
+end;
